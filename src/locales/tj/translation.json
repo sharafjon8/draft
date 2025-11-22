@@ -1,0 +1,134 @@
+{
+    "welcome": "Хуш омадед",
+    "change_language": "Иваз кардани забон",
+    "coursess": "Курсҳо",
+    "services": "Хизматрасони",
+    "aboutUs": "Дар бораи мо",
+    "loginIn": "Воридшавӣ",
+    "hero": {
+        "sectionLabel": "Қисми қаҳрамон",
+        "enrollmentOpen": "Бақайдгирӣ кушода шуд",
+        "learnThe": "Ҳунар омӯз",
+        "futureProfession": "иҷрокунандаи оянда",
+        "today": "ҳоло",
+        "mainText": "Касби ояндаро имрӯз омӯзед",
+        "confidentFuture": "ва бо мо ба ояндаи боэътимод қадам гузоред",
+        "enrollNow": "Ба курсҳо номнавис шав"
+    },
+    "stats": {
+        "students": "Донишҷӯён",
+        "graduates": "Хатмкунандагон",
+        "courses": "Курсҳо"
+    },
+    "whyChooseUs": {
+        "title": "Чаро бояд академияи моро интихоб кунед?"
+    },
+    "features": {
+        "courses": "Ҳама курсҳо ба забонҳои тоҷикӣ ва русӣ дастрасанд.",
+        "schedule": "Ҷадвали интенсивӣ — 3 дарс дар як ҳафта.",
+        "realProjects": "Аз рӯзҳои аввал шумо бо лоиҳаҳои воқеӣ кор мекунед.",
+        "exams": "Имтиҳонҳои ҳафтаина — шумо пешрафти худро мебинед.",
+        "coworking": "Coworking 24/7 бо Wi-Fi ва муҳити бароҳат.",
+        "teachers": "Устодони таҷрибадор таҷрибаи таҳияро мубодила мекунанд."
+    },
+    "popularCourses": "Курсҳои машҳур",
+    "courses": {
+        "python": {
+            "title": "Python - Асосҳо",
+            "description": "Асосҳои забони барномасозии Python-ро омӯзед"
+        },
+        "javascript": {
+            "title": "JavaScript ва DOM",
+            "description": "Истифодаи JS-ро барои кор бо DOM омӯзед"
+        },
+        "smm": {
+            "title": "SMM - Менеҷер",
+            "description": "Чӣ гуна эҷод кардани мундариҷа барои платформаҳои машҳурро омӯзед"
+        }
+    },
+    "advantages": [
+        {
+            "icon": "/images/bonus-board.png",
+            "title": "Менторҳои ботаҷриба",
+            "description": "Менторҳои мо таҷрибаи кор дар лоиҳаҳои воқеиро доранд."
+        },
+        {
+            "icon": "/images/bonus-note.png",
+            "title": "Методикаи нодири омӯзиш",
+            "description": "Методикаи нави омӯзиш дар вилояти Хатлон."
+        },
+        {
+            "icon": "/images/bonus-cactus.png",
+            "title": "Ҷадвали қулай ва чандир",
+            "description": "Дарсҳо онлайн ва офлайн — мувофиқ ба ритми зиндагии шумо."
+        },
+        {
+            "icon": "/images/bonus-energy.png",
+            "title": "Натиҷа — ҳадафи мо",
+            "description": "Шумо на танҳо меомӯзед, балки ба ҳадафҳо мерасед."
+        }
+    ],
+    "mentorSection": {
+        "ourMentors": "Мутахассисони мо",
+        "text": "Мутахассисони соҳаи худ омодаанд, ки таҷриба ва дониши худро мубодила кунанд"
+    },
+    "mentors": [
+        {
+            "name": "Фаридун Фатҳуллозода",
+            "position": "Flutter Developer",
+            "description": "Таҷрибаи корӣ дар соҳаи таҳияи нармафзор. Ментори курси Flutter дар академияи JNR FTech. Дар ширкатҳои Rebus ва JNR FTech Flutter Developer мебошад.",
+            "avatar": "/images/faridun.png",
+            "phoneNumber": 889340003,
+            "specialties": [
+                "Flutter",
+                "Dart",
+                "Mobile Development"
+            ]
+        },
+        {
+            "name": "Сухроб Шоимов",
+            "position": "Frontend Developer",
+            "description": "Таҷрибаи корӣ дар соҳаи веб-рушдиёт. Ментори курси Front-end дар академияи JNR FTech. Дар ширкати мо Front-end Developer мебошад.",
+            "avatar": "/images/suhrob.png",
+            "phoneNumber": 123098234,
+            "specialties": [
+                "React",
+                "JavaScript",
+                "UI/UX"
+            ]
+        },
+        {
+            "name": "Шералиев Шарафчон",
+            "position": "Python Developer",
+            "description": "Таҷрибаи корӣ дар соҳаи таҳияи Python. Ментори курсҳои Python ва After Effects дар академияи JNR FTech. Дар ширкати мо Python Developer мебошад.",
+            "avatar": "/images/sharaf.png",
+            "phoneNumber": 903894823,
+            "specialties": [
+                "Python",
+                "Django",
+                "Data Science"
+            ]
+        }
+    ],
+    "phone": "Телефон",
+    "adressText": "Суроға",
+    "adress": "ш. Бохтар, Ваҳдат 31",
+    "workTime": "Вақти корӣ",
+    "thoughtOfGraduates": "Баҳодиҳии хатмкунандагон",
+    "descriptionAboutGraduated": "Ба онҳое, ки аллакай курсҳои моро хатм кардаанд, чӣ мегӯянд, гӯш кунед ва тавсияҳои лозимаро гиред.",
+    "ourAddress": "Суроға мо",
+    "footerText": "Оянда оғоз мешавад",
+    "footerText2": "дар ин ҷо ва ҳоло",
+    "navigation": "Навигатсия",
+    "freeConsultation": "Машварати ройгон",
+    "workDay": "Дш, Шб",
+    "title": "Дар бораи мо – Академияи IT JNR Tech дар Бохтар",
+    "description": "Академияи IT JNR Tech дар Бохтар – омӯзиш ва сертификатсияи мутахассисони IT. Курси барномасозӣ (Python, JavaScript, C#), таҳияи веб, дизайн, SMM ва маркетинг дар Тоҷикистон.",
+    "heading": "Дар бораи мо",
+    "intro": "Академияи IT JNR Tech – маркази муосири омӯзиши мутахассисони IT дар Бохтар (Қурғонтеппа). Мо курсҳои барномасозӣ, таҳияи веб, дизайн ва маркетинги рақамиро пешниҳод мекунем.",
+    "directions": "Самтҳои мо",
+    "why": "Чаро моро интихоб мекунанд?",
+    "tajikistan": "IT дар Тоҷикистон",
+    "advantagesMakeUsUniue": "Бартариятҳое, ки моро беназир мегардонанд",
+    "join": "Ба мо ҳамроҳ шавед"
+}

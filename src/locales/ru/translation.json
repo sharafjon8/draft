@@ -1,0 +1,133 @@
+{
+    "welcome": "Добро пожаловать",
+    "change_language": "Сменить язык",
+    "coursess": "Курсы",
+    "services": "Услуги",
+    "aboutUs": "О нас",
+    "loginIn": "Войти",
+    "hero": {
+        "sectionLabel": "Hero section",
+        "enrollmentOpen": "Набор открыт",
+        "mainText": "Изучай профессию будущего сегодня",
+        "confidentFuture": "и вступи в уверенное будущее вместе с нами",
+        "enrollNow": "Записаться на курсы"
+    },
+    "stats": {
+        "students": "Студентов",
+        "graduates": "Выпускников",
+        "courses": "Курсов"
+    },
+    "whyChooseUs": {
+        "title": "Почему стоит выбрать нашу академию?"
+    },
+    "features": {
+        "courses": "Все курсы доступны на таджикском и русском языках.",
+        "schedule": "Интенсивный график — 3 занятия в неделю.",
+        "realProjects": "С самого начала вы работаете над реальными проектами.",
+        "exams": "Еженедельные экзамены — вы видите свой прогресс.",
+        "coworking": "Коворкинг 24/7 с Wi-Fi и удобной атмосферой.",
+        "teachers": "Опытные преподаватели делятся практикой разработки."
+    },
+    "popularCourses": "Популярные курсы",
+    "courses": {
+        "python": {
+            "title": "Python - Основы",
+            "description": "Изучите основы языка программирования Python"
+        },
+        "javascript": {
+            "title": "JavaScript и DOM",
+            "description": "Научитесь использовать JS для работы с DOM-технологиями"
+        },
+        "smm": {
+            "title": "SMM - Менеджер",
+            "description": "Узнайте, как создавать контент для популярных платформ"
+        }
+    },
+    "advantages": [
+        {
+            "icon": "/images/bonus-board.png",
+            "title": "Опытные менторы",
+            "description": "Наши менторы имеют опыт работы в реальных проектах."
+        },
+        {
+            "icon": "/images/bonus-note.png",
+            "title": "Уникальная методика преподавания",
+            "description": "Новая методика преподавания в Хатлонской области."
+        },
+        {
+            "icon": "/images/bonus-cactus.png",
+            "title": "Удобный и гибкий график",
+            "description": "Занятия онлайн и оффлайн — под ваш ритм жизни."
+        },
+        {
+            "icon": "/images/bonus-energy.png",
+            "title": "Результат — наша цель",
+            "description": "Вы не просто учитесь, вы достигаете целей."
+        }
+    ],
+    "mentorSection": {
+        "ourMentors": "Наши менторы",
+        "text": "Специалисты своего дела, готовые поделиться опытом и знаниями"
+    },
+    "mentors": [
+        {
+            "name": "Фаридун Фатхуллозода",
+            "position": "Flutter Developer",
+            "description": "Опыт работы в области разработки программного обеспечения. Ментор курса Flutter в академии JNR FTech. Работает Flutter-разработчиком в компании Rebus и JNR FTech.",
+            "avatar": "/images/faridun.png",
+            "phoneNumber": 889340003,
+            "specialties": [
+                "Flutter",
+                "Dart",
+                "Mobile Development"
+            ]
+        },
+        {
+            "name": "Сухроб Шоимов",
+            "position": "Frontend Developer",
+            "description": "Опыт работы в области веб-разработки. Ментор курса Front-end в академии JNR FTech. Работает Front-end разработчиком в нашей компании.",
+            "avatar": "/images/suhrob.png",
+            "phoneNumber": 123098234,
+            "specialties": [
+                "React",
+                "JavaScript",
+                "UI/UX"
+            ]
+        },
+        {
+            "name": "Шералиев Шарафчон",
+            "position": "Python Developer",
+            "description": "Опыт работы в области Python-разработки. Ментор курса Python, After Effects в академии JNR FTech. Работает Python-разработчиком в нашей компании.",
+            "avatar": "/images/sharaf.png",
+            "phoneNumber": 903894823,
+            "specialties": [
+                "Python",
+                "Django",
+                "Data Science"
+            ]
+        }
+    ],
+    "phone": "Телефон",
+    "adressText": "Адресс",
+    "adress": "г. Бохтар, Вахдат 31",
+    "workTime": "Рабочее время",
+    "thoughtOfGraduates": "Отзывы выпускников",
+    "descriptionAboutGraduated": "Послушайте, что говорят те, кто уже прошел наши курсы, и получите от них необходимые рекомендации.",
+    "ourAddress": "Наш адрес",
+    "footerText": "Будущее начинается",
+    "footerText2": "здесь и сейчас",
+    "navigation": "Навигация",
+    "freeConsultation": "Бесплатная консультация",
+    "sending": "Фиристодан...",
+    "sent": "Ирсол",
+    "workDay": "Пн, Сб",
+    "title": "О нас – IT Академия JNR Tech в Бохтаре",
+    "description": "IT Академия JNR Tech в Бохтаре – обучение и сертификация IT-специалистов. Курсы программирования (Python, JavaScript, C#), веб-разработка, дизайн, SMM и маркетинг в Таджикистане.",
+    "heading": "О нас",
+    "intro": "IT Академия JNR Tech – это современный центр обучения IT-специалистов в Бохтаре (Курган-Тюбе). Мы предлагаем курсы программирования, веб-разработки, дизайна и цифрового маркетинга.",
+    "directions": "Наши направления",
+    "why": "Почему выбирают нас?",
+    "tajikistan": "IT в Таджикистане",
+    "advantagesMakeUsUniue": "Преимущества, которые делают нас уникальными",
+    "join": "Присоединяйтесь к нам"
+}

@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /search?*
+Crawl-delay: 1
+
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: SemrushBot
+User-agent: DotBot
+User-agent: SerpstatBot
+User-agent: PetalBot
+User-agent: YandexBot
+Disallow: /
+
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+Sitemap: https://jnrftech.com/sitemap.xml
+Host: https://jnrftech.com

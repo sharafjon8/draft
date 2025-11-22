@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.custom-select .ant-select-selector {
+    border-radius: 9999px !important;
+}

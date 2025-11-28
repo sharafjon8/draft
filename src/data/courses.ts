@@ -1,122 +1,238 @@
-export const courses = [
+import type { Course } from "../types";
+
+export const courses: Course[] = [
     {
         "id": 1,
         "title": "HTML и CSS",
+        "titleTj": "HTML ва CSS",
         "description": "Изучите строительные блоки веба",
+        "descriptionTj": "Блокҳои сохтмонии веб-сайтро омӯзед",
+        "fullDescription": "Изучите HTML5 и CSS3 шаг за шагом — от базовых тегов до адаптивных макетов. Создавайте реальные сайты, практикуйтесь в семантической разметке и осваивайте современные приёмы CSS: Flexbox, Grid и анимации.",
+        "fullDescriptionTj": "HTML5 ва CSS3 را қадам ба қадам омӯзед — аз браширо шудани асосӣ то макети адаптивӣ. Вебсайтҳои воқеӣ эҷод кунед, дар нишонаи семантикӣ машқ кунед ва усули ҷадидии CSS: Flexbox, Grid ва анимасьонҳоро ба мас оред.",
         "image": "/images/python.png",
         "icon": "/images/python.png",
         "borderColor": "#8B4513",
         "duration": "1 месяц",
-        "category": "Фронтенд"
+        "durationTj": "1 моҳ",
+        "category": "Фронтенд",
+        "categoryTj": "Фронтенд",
+        "startDate": "5 Декабря",
+        "startDateTj": "5 Декабри",
+        "classesPerWeek": "6 занятий в неделю",
+        "classesPerWeekTj": "6 дарс дар ҳафта",
+        "projectCount": "3 проекта в портфолио",
+        "projectCountTj": "3 лоиҳа дар портфолиои",
+        "groupSize": "Группа по 10–12 человек",
+        "groupSizeTj": "Гурӯҳи 10–12 нафар",
+        "seatsAvailable": "Осталось мест: 8",
+        "seatsAvailableTj": "Ҷойҳои боқимонда: 8",
+        "certificate": "Сертификат об окончании",
+        "certificateTj": "Сертификати истинод",
+        "salary": {
+            "junior": "250$",
+            "middle": "600$",
+            "senior": "1500$"
+        },
+        "requirements": [
+            { text: "Intel Core i5 (10-го поколения)", textTj: "Intel Core i5 (10-уми", icon: "processor" },
+            { text: "Windows 10, 64-бит", textTj: "Windows 10, 64-бит", icon: "monitor" },
+            { text: "8ГБ", textTj: "8ГБ", icon: "memory" },
+            { text: "SSD 256 ГБ или HDD 512 ГБ", textTj: "SSD 256 ГБ ё HDD 512 ГБ", icon: "storage" }
+        ]
     },
     {
         "id": 2,
         "title": "JavaScript",
+        "titleTj": "JavaScript",
         "description": "Освойте основы программирования с JavaScript",
+        "descriptionTj": "Асосҳои барномасозиро бо JavaScript омӯзед",
+        "fullDescription": "Углубленный курс JavaScript для начинающих и опытных разработчиков. От переменных и функций до асинхронного программирования и современного синтаксиса ES6+.",
+        "fullDescriptionTj": "Курси мутафассили JavaScript барои сохте карда шуда иҷоди парвоишкорон. Аз тағйирёбандаҳо ва функсияҳо то барномасозии асинхронӣ ва синтаксисони ҷадидии ES6+.",
         "image": "/images/js.png",
         "icon": "/images/js.png",
         "borderColor": "#6B7B1F",
         "duration": "2 месяца",
-        "category": "Фронтенд"
+        "durationTj": "2 моҳ",
+        "category": "Фронтенд",
+        "categoryTj": "Фронтенд",
+        "startDate": "10 Декабря",
+        "startDateTj": "10 Декабри",
+        "classesPerWeek": "6 занятий в неделю",
+        "classesPerWeekTj": "6 дарс дар ҳафта",
+        "projectCount": "5 проектов в портфолио",
+        "projectCountTj": "5 лоиҳа дар портфолиои",
+        "groupSize": "Группа по 10–12 человек",
+        "groupSizeTj": "Гурӯҳи 10–12 нафар",
+        "seatsAvailable": "Осталось мест: 5",
+        "seatsAvailableTj": "Ҷойҳои боқимонда: 5",
+        "certificate": "Сертификат об окончании",
+        "certificateTj": "Сертификати истинод",
+        "salary": {
+            "junior": "300$",
+            "middle": "700$",
+            "senior": "1800$"
+        },
+        "requirements": [
+            { text: "Intel Core i5 (10-го поколения)", textTj: "Intel Core i5 (10-уми", icon: "processor" },
+            { text: "Windows 10, 64-бит", textTj: "Windows 10, 64-бит", icon: "monitor" },
+            { text: "8ГБ", textTj: "8ГБ", icon: "memory" },
+            { text: "SSD 256 ГБ или HDD 512 ГБ", textTj: "SSD 256 ГБ ё HDD 512 ГБ", icon: "storage" }
+        ]
     },
     {
         "id": 3,
         "title": "React",
+        "titleTj": "React",
         "description": "Создавайте интерактивные интерфейсы с популярной библиотекой JavaScript",
+        "descriptionTj": "Интерфейсҳои интерактивӣ бо китобхонаи маъруфи JavaScript эҷод кунед",
+        "fullDescription": "Мастер-класс по React. Научитесь работать с компонентами, хуками, состоянием и управлением глобальным состоянием приложения.",
+        "fullDescriptionTj": "Мастер-класс дар React. Кор бо ҷузъҳо, хукҳо, ҳолат ва идораи ҳолати глобалии барномаро омӯзед.",
         "image": "/images/python.png",
         "icon": "/images/python.png",
         "borderColor": "#1B5E7E",
         "duration": "3 месяца",
-        "category": "Фронтенд"
+        "durationTj": "3 моҳ",
+        "category": "Фронтенд",
+        "categoryTj": "Фронтенд",
+        "startDate": "15 Декабря",
+        "startDateTj": "15 Декабри",
+        "classesPerWeek": "6 занятий в неделю",
+        "classesPerWeekTj": "6 дарс дар ҳафта",
+        "projectCount": "4 проекта в портфолио",
+        "projectCountTj": "4 лоиҳа дар портфолиои",
+        "groupSize": "Группа по 10–12 человек",
+        "groupSizeTj": "Гурӯҳи 10–12 нафар",
+        "seatsAvailable": "Осталось мест: 3",
+        "seatsAvailableTj": "Ҷойҳои боқимонда: 3",
+        "certificate": "Сертификат об окончании",
+        "certificateTj": "Сертификати истинод",
+        "salary": {
+            "junior": "400$",
+            "middle": "800$",
+            "senior": "2000$"
+        },
+        "requirements": [
+            { text: "Intel Core i5 (10-го поколения)", textTj: "Intel Core i5 (10-уми", icon: "processor" },
+            { text: "Windows 10, 64-бит", textTj: "Windows 10, 64-бит", icon: "monitor" },
+            { text: "8ГБ", textTj: "8ГБ", icon: "memory" },
+            { text: "SSD 256 ГБ или HDD 512 ГБ", textTj: "SSD 256 ГБ ё HDD 512 ГБ", icon: "storage" }
+        ]
     },
     {
         "id": 4,
         "title": "Дизайн",
+        "titleTj": "Дизайн",
         "description": "Создавайте красивые, функциональные цифровые продукты",
+        "descriptionTj": "Маҳсулоти рақамии сифатман ва функсионалӣ эҷод кунед",
+        "fullDescription": "Полный курс графического и веб-дизайна. Изучите принципы дизайна, типографику, цветовую теорию и создание макетов в Figma.",
+        "fullDescriptionTj": "Курси пурраи дизайни графикӣ ва веб. Принсипҳои дизайн, типография, назарияи ранг ва сохтани макет дар Figma-ро омӯзед.",
         "image": "/images/python.png",
         "icon": "/images/python.png",
         "borderColor": "#2D5F2E",
         "duration": "4 месяца",
-        "category": "Дизайн"
+        "durationTj": "4 моҳ",
+        "category": "Дизайн",
+        "categoryTj": "Дизайн",
+        "startDate": "20 Декабря",
+        "startDateTj": "20 Декабри",
+        "classesPerWeek": "5 занятий в неделю",
+        "classesPerWeekTj": "5 дарс дар ҳафта",
+        "projectCount": "10 проектов в портфолио",
+        "projectCountTj": "10 лоиҳа дар портфолиои",
+        "groupSize": "Группа по 8–10 человек",
+        "groupSizeTj": "Гурӯҳи 8–10 нафар",
+        "seatsAvailable": "Осталось мест: 4",
+        "seatsAvailableTj": "Ҷойҳои боқимонда: 4",
+        "certificate": "Сертификат об окончании",
+        "certificateTj": "Сертификати истинод",
+        "salary": {
+            "junior": "350$",
+            "middle": "750$",
+            "senior": "1600$"
+        },
+        "requirements": [
+            { text: "Intel Core i5 (10-го поколения)", textTj: "Intel Core i5 (10-уми", icon: "processor" },
+            { text: "Windows 10, 64-бит", textTj: "Windows 10, 64-бит", icon: "monitor" },
+            { text: "8ГБ", textTj: "8ГБ", icon: "memory" },
+            { text: "SSD 256 ГБ или HDD 512 ГБ", textTj: "SSD 256 ГБ ё HDD 512 ГБ", icon: "storage" }
+        ]
     },
     {
         "id": 5,
         "title": "Основы C++",
+        "titleTj": "Асосҳои C++",
         "description": "Начните свой путь в программировании с C++",
+        "descriptionTj": "Роҳи программасозиро бо C++ оғоз кунед",
+        "fullDescription": "Введение в C++ для начинающих. Изучите синтаксис, переменные, функции, объектно-ориентированное программирование и работу с памятью.",
+        "fullDescriptionTj": "Муқаддима дар C++ барои оғозикунандагон. Синтаксис, тағйирёбандаҳо, функсияҳо, барномасозии шахсоманди объект ва кор бо ёд-хотираро омӯзед.",
         "image": "/images/python.png",
         "icon": "/images/python.png",
         "borderColor": "#1E4A7B",
-        "duration": "1 месяц",
-        "category": "Бэкенд"
+        "duration": "3 месяца",
+        "durationTj": "3 моҳ",
+        "category": "Бэкенд",
+        "categoryTj": "Бэкенд",
+        "startDate": "8 Декабря",
+        "startDateTj": "8 Декабри",
+        "classesPerWeek": "6 занятий в неделю",
+        "classesPerWeekTj": "6 дарс дар ҳафта",
+        "projectCount": "6 проектов в портфолио",
+        "projectCountTj": "6 лоиҳа дар портфолиои",
+        "groupSize": "Группа по 10–12 человек",
+        "groupSizeTj": "Гурӯҳи 10–12 нафар",
+        "seatsAvailable": "Осталось мест: 2",
+        "seatsAvailableTj": "Ҷойҳои боқимонда: 2",
+        "certificate": "Сертификат об окончании",
+        "certificateTj": "Сертификати истинод",
+        "salary": {
+            "junior": "280$",
+            "middle": "650$",
+            "senior": "1700$"
+        },
+        "requirements": [
+            { text: "Intel Core i5 (10-го поколения)", textTj: "Intel Core i5 (10-уми", icon: "processor" },
+            { text: "Windows 10, 64-бит", textTj: "Windows 10, 64-бит", icon: "monitor" },
+            { text: "8ГБ", textTj: "8ГБ", icon: "memory" },
+            { text: "SSD 256 ГБ или HDD 512 ГБ", textTj: "SSD 256 ГБ ё HDD 512 ГБ", icon: "storage" }
+        ]
     },
     {
         "id": 6,
         "title": "Python",
+        "titleTj": "Python",
         "description": "Изучите один из самых универсальных языков программирования",
+        "descriptionTj": "Яке аз забонҳои барномасозии универсалтарин омӯзед",
+        "fullDescription": "Полный курс Python с нуля. От основ синтаксиса до работы с данными, веб-разработки и автоматизации. Идеально для начинающих и опытных разработчиков.",
+        "fullDescriptionTj": "Курси пурраи Python аз нул. Аз асосҳои синтаксис то кор бо маълумот, веб-разработка ва автоматизация. Аз оғозикунандагон то сохте карда шудаҳо.",
         "image": "/images/python.png",
         "icon": "/images/python.png",
         "borderColor": "#1A5A5A",
         "duration": "4 месяца",
-        "category": "Бэкенд"
-    },
-    {
-        "id": 7,
-        "title": "MS Excel",
-        "description": "Освойте Excel: формулы, диаграммы, таблицы и автоматизация расчётов для работы и бизнеса.",
-        "image": "/images/python.png",
-        "icon": "/images/python.png",
-        "borderColor": "#1B5E7E",
-        "duration": "2 месяца",
-        "category": "Офис"
-    },
-    {
-        "id": 8,
-        "title": "1С бухгалтерия",
-        "description": "Научитесь вести учёт, отчётность и автоматизировать бухгалтерские процессы в 1С.",
-        "image": "/images/python.png",
-        "icon": "/images/python.png",
-        "borderColor": "#6B7B1F",
-        "duration": "3 месяца",
-        "category": "Офис"
-    },
-    {
-        "id": 9,
-        "title": "Программирование для детей",
-        "description": "Весёлое и понятное обучение программированию для детей с играми и проектами.",
-        "image": "/images/python.png",
-        "icon": "/images/python.png",
-        "borderColor": "#8B4513",
-        "duration": "6 месяцев",
-        "category": "Дети"
-    },
-    {
-        "id": 10,
-        "title": "Мобильное программирование - Flutter",
-        "description": "Создавайте мобильные приложения для Android и iOS на популярных технологиях.",
-        "image": "/images/python.png",
-        "icon": "/images/python.png",
-        "borderColor": "#1A5A5A",
-        "duration": "5 месяцев",
-        "category": "Мобильная разработка"
-    },
-    {
-        "id": 11,
-        "title": "SMM Маркетинг",
-        "description": "Научитесь продвигать аккаунты в Instagram: контент, реклама и аналитика.",
-        "image": "/images/instagram.png",
-        "icon": "/images/instagram.png",
-        "borderColor": "#8B4513",
-        "duration": "3 месяца",
-        "category": "Маркетинг"
-    },
-    {
-        "id": 12,
-        "title": "Графический дизайн",
-        "description": "Создавайте красивые постеры, баннеры и фирменный стиль с нуля.",
-        "image": "/images/python.png",
-        "icon": "/images/python.png",
-        "borderColor": "#2D5F2E",
-        "duration": "4 месяца",
-        "category": "Дизайн"
+        "durationTj": "4 моҳ",
+        "category": "Бэкенд",
+        "categoryTj": "Бэкенд",
+        "startDate": "12 Декабря",
+        "startDateTj": "12 Декабри",
+        "classesPerWeek": "6 занятий в неделю",
+        "classesPerWeekTj": "6 дарс дар ҳафта",
+        "projectCount": "8 проектов в портфолио",
+        "projectCountTj": "8 лоиҳа дар портфолиои",
+        "groupSize": "Группа по 10–12 человек",
+        "groupSizeTj": "Гурӯҳи 10–12 нафар",
+        "seatsAvailable": "Осталось мест: 6",
+        "seatsAvailableTj": "Ҷойҳои боқимонда: 6",
+        "certificate": "Сертификат об окончании",
+        "certificateTj": "Сертификати истинод",
+        "salary": {
+            "junior": "320$",
+            "middle": "750$",
+            "senior": "1900$"
+        },
+        "requirements": [
+            { text: "Intel Core i5 (10-го поколения)", textTj: "Intel Core i5 (10-уми", icon: "processor" },
+            { text: "Windows 10, 64-бит", textTj: "Windows 10, 64-бит", icon: "monitor" },
+            { text: "8ГБ", textTj: "8ГБ", icon: "memory" },
+            { text: "SSD 256 ГБ или HDD 512 ГБ", textTj: "SSD 256 ГБ ё HDD 512 ГБ", icon: "storage" }
+        ]
     }
 ]

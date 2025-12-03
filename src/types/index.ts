@@ -54,4 +54,8 @@ export type Course = {
         textTj: string;
         icon: string;
     }>;
+    skills?: Array<{
+        text: string;
+        textTj: string;
+    }>;
 };

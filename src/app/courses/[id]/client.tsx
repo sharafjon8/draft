@@ -111,6 +111,25 @@ export default function CourseDetailClient({ courseId }: CourseDetailClientProps
                                 </div>
                             )}
 
+                            {/* Tools Section */}
+                            {course.tools && course.tools.length > 0 && (
+                                <div className={`mb-8 rounded-3xl p-8 border ${isDark ? 'bg-gradient-to-br from-gray-800/30 to-gray-900/20 border-gray-700/30' : 'bg-gray-50 border-gray-200'}`}>
+                                    <h2 className={`text-2xl font-bold mb-6 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
+                                        {isRussian ? 'Инструменты' : 'Асбобҳо'}
+                                    </h2>
+                                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                                        {course.tools.map((tool, idx) => (
+                                            <div key={idx} className={`flex flex-col items-center justify-center p-4 rounded-2xl border transition-colors ${isDark ? 'bg-gray-800/50 border-gray-700 hover:border-gray-600' : 'bg-white border-gray-300 hover:border-gray-400'}`}>
+                                                <div className="text-4xl mb-3">{tool.icon}</div>
+                                                <p className={`text-sm text-center font-medium ${isDark ? 'text-gray-200' : 'text-gray-700'}`}>
+                                                    {tool.name}
+                                                </p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
+
                             {/* Requirements Section */}
                             <div className="mb-8">
                                 <h2 className={`text-2xl font-bold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>

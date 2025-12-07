@@ -58,4 +58,8 @@ export type Course = {
         text: string;
         textTj: string;
     }>;
+    tools?: Array<{
+        name: string;
+        icon: string;
+    }>;
 };
